@@ -13,8 +13,8 @@
    - Run mvn install
    - Run mvn spring-boot:run
 * Ponts to be Noted
-  - Using Inmemeory Database i.e H2 avilabe at http://localhost:8080/h2-console
-  - Useing Swagger documents, So that we can get all Rest documentation and Testing feature on http://localhost:8080/swagger-ui.html
+  - Using Inmemeory Database i.e H2 avilabe at http://localhost:8080/h2-console (username/password: admin/admin)
+  - Using Swagger documents, So that we can get all Rest documentation and Testing feature on http://localhost:8080/swagger-ui.html
 * Endpoints
   - @GetMapping("/powerledgers") -> Gives all the PowerLedgers
   - @PostMapping("/powerledger/add")
